@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Prompt', 'Sarabun', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #FAF7F5;
+  }
+}
+
+/* Cute Polka Dot Pattern */
+.bg-polka {
+  background-color: #FAF7F5;
+  background-image: radial-gradient(rgba(141, 110, 99, 0.15) 1.5px, transparent 1.5px), radial-gradient(rgba(129, 212, 250, 0.2) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.bg-polka-subtle {
+  background-image: radial-gradient(rgba(141, 110, 99, 0.08) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+.bg-polka-blue {
+  background-color: #F0F9FF;
+  background-image: radial-gradient(rgba(56, 189, 248, 0.18) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EBE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #D7CCC8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BCAAA4;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix รายงานการคัดกรองสุขภาพ",
+  "description": "ภาพรวมสถิติผู้เข้ารับการคัดกรองสุขภาพ และวิเคราะห์แนวโน้มรายพื้นที่ โดย นางสาวนาดา ระยาภักดิ์ นักศึกษาสาขาวิชาเวชระเบียน ชั้นปีที่ 3",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
